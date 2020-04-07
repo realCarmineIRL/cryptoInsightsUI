@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(190, 54, 13);
+    padding: 20px;
+    margin: 0;
+    background-image: url("resources/474316-PHGBG1-772.jpg");
+    background-size: center;
+  }
+  h1, h2, p, ul, li {
+    font-family: sans-serif;
+  }
+  ul.header li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+  }
+  ul.header {
+    background-color: rgba(0,0,0,0.4);
+    padding: 0;
+  }
+  ul.header li a {
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+  }
+  .content {
+    background-color: rgba(255,255,255,0.4);
+    padding: 20px;
+    left: 20%;
+  }
+  .content h2 {
+    padding: 0;
+    margin: 0;
+  }
+  .content li {
+    margin-bottom: 10px;
+  }
+  .active {
+    background-color: rgb(52, 135, 243);
+  }
+  #title {
+    color: #FFF
+  }
+  p.copyright {
+      position: sticky;
+      width: 100%;
+      color: #fff;
+      line-height: 20px;
+      font-size: 0.7em;
+      text-align: center;
+      bottom:0;
+      margin-top: 5%;
+  }
+  img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .content1 {
+    position: relative;
+    background-color: rgba(255,255,255,0.4);
+    padding: 20px;
+    margin-top: 15px;
+  }
